@@ -238,7 +238,7 @@ header .container .col-md-7 p {
 .purchase > p {
   color: var(--light-black);
   font-size: 3vmin;
-  padding-bottom: 10vmin;
+  padding-bottom: 10px;
 }
 
 .purchase .cards .card {
@@ -258,8 +258,12 @@ header .container .col-md-7 p {
 }
 
 .card .card-text {
-  padding: 2.5rem 3rem;
+  text-align: left;
+  padding: 0.1rem 3rem;
   color: var(--light-black);
+}
+.card .card-text span {
+  color: #ff512f;
 }
 
 .card-body .pricing {
@@ -299,7 +303,7 @@ background: linear-gradient(0deg, rgba(96,108,136,1) 0%, rgba(63,76,107,1) 35%);
 .section-3 .desktop {
   background: white;
   display: inline-block;
-  border-radius: 3em;
+  border-radius: 20%;
   padding: 2vmin 4.5vmin;
   margin: 1em;
 }
@@ -364,7 +368,7 @@ footer input::placeholder {
 }
 
 footer .input-group .input-group-text {
-  background: var(--bggradient);
+  background: rgb(255, 255, 255);
   border: none;
 }
 
