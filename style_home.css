@@ -370,10 +370,17 @@ footer input::placeholder {
 footer .input-group .input-group-text {
   background: rgb(255, 255, 255);
   border: none;
+  text-decoration: none;
+  color: #ddd;
 }
-
-footer .column i {
-  color: #dd2476;
+footer .input-group .input-group-text a {
+ text-decoration: none;
+ color: rgba(0, 0, 0, 0.815);
+}
+footer .column a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0px 10px;
 }
 
 /* It is Adjacent sibling combinator */

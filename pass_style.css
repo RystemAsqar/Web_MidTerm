@@ -167,12 +167,22 @@ html, body {
   font-family: Abel, Arial, Verdana, sans-serif;
 }
 
+.Nick h1{
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  color: white;
+}
+
 .center {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  display: inline-block;
+  display: flex;
+}
+center{
+  margin: 0px 0px 500px 100px;
 }
 
 .card {
